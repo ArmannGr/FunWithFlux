@@ -10,7 +10,7 @@ spec:
   path: ./infrastructure/base
   prune: true
   sourceRef:
-    kind: HelmRepository
+    kind: GitRepository
     name: flux-system
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
